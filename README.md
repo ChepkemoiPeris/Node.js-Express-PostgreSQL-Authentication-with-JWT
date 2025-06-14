@@ -13,36 +13,17 @@ bcryptjs: For hashing passwords.
 ---
 
 ## Project Structure
-
-node-js-jwt-auth-postgresql/
-├── app/
-│   ├── config/
-│   │   ├── auth.config.js
-│   │   └── db.config.js
-│   ├── controllers/
-│   │   ├── auth.controller.js
-│   │   └── user.controller.js
-│   ├── middlewares/
-│   │   ├── authJwt.js
-│   │   └── verifySignUp.js
-│   ├── models/
-│   │   ├── index.js
-│   │   ├── role.model.js
-│   │   └── user.model.js
-│   └── routes/
-│       ├── auth.routes.js
-│       └── user.routes.js
-├── server.js
-├── package.json
-└── tailwind.config.js
-
+![Structure screenshot](./structure.png)
+ 
 
 ---
 
 ## Setup Instructions
 
 1. **Clone the repository:**
- 
+ ```bash
+ git clone https://github.com/ChepkemoiPeris/Node.js-Express-PostgreSQL-Authentication-with-JWT.git
+ ```
 2. **Install dependencies:**
 
 ```bash
